@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.container{
+  @apply  max-w-7xl mx-auto
+}
+
+.form-input{
+  @apply rounded border-none outline-0 bg-white px-2 py-2 block mt-1 w-full shadow-lg dark:text-black
+}
+
+h1,h2,h3{
+  font-family: var(--font-vazirmatn);
+  font-weight: 700;
+  
+}
+
+body,a,span,label,input,button,p,li {
+  font-family: var(--font-vazirmatn);
+  font-weight: 400;
+}
+.navlink{
+  @apply hover:border-b border-b-secondary  
+}
+
+.dot-pattern {
+  background-image: radial-gradient(rgba(162, 28, 175, 0.3) 1px , transparent 1px);
+  background-size: 24px 24px;
+}
+
+.animation{
+  @apply  transition-transform duration-700 hover:scale-105
+}
+
+.services-cart{
+ @apply rounded-lg p-4  shadow-[3px_3px_8px_0_#c026d3]/30
+}
+
+:root {
+  --background: #f4f4f5;
+  --foreground: #010101;
+   --secondary: #c026d3;
+}
+
+.dark{
+   --background: #171717;
+    --foreground: #ededed;
+  }
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary);
+  
+}
+
+/* @media (prefers-color-scheme: dark) { 
+  :root {
+    --background: #171717;
+    --foreground: #ededed;
+    --secondary: #a21caf;
+  } 
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
