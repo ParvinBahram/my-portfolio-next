@@ -9,7 +9,7 @@ import Footer from '@/components/Footer'
 
 function Home() {
   return (
-    <div className='flex flex-col lg:flex-row lg:gap-x-4 container p-8'>
+    <div hr className='flex flex-col lg:flex-row lg:gap-x-4 container p-8'>
     <div className=" lg:w-82">
     <InrtoCard  />
     </div>

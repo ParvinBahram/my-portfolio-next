@@ -1,5 +1,5 @@
-{
-  "projects": [
+
+   export const projectList = [
     {
       "id": 1,
       "title": "Weather-app",
@@ -51,4 +51,6 @@
       "badge": "public"
     }
   ]
-}
+
+
+
