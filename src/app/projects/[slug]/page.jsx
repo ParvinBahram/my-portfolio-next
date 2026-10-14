@@ -14,8 +14,7 @@ async function SingleProject({ params }) {
       <h1 className="mb-4">{project.title}</h1>
       <a href={project.link} className="block text-blue-700" target="_blank">
         {" "}
-        <span className="text-foreground">لینک مشاهده آنلاین پروژه</span>{" "}
-        {project.link}{" "}
+        <span className="text-foreground block">لینک مشاهده آنلاین پروژه</span> {project.link}{" "}
       </a>
       <Image
         width={300}
