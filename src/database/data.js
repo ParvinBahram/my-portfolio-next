@@ -1,14 +1,13 @@
 export const projectList = [
   {
     id: 2,
-    title: "Pomodoro-timer",
-    description:
-      " تایمر بر اساس قانون پومودورو تنظیم شده است و سه حالت تمرکز،استراحت و ریست دارد .همچنین با زدن دکمه تنظیمات میتوانید مدت زمان ها رو بر اساس نیاز خود تغییر دهید. با زدم دکمهabout  هم یک اطلاعات کلی درباره آن به دست بیاورید",
-    category: ["JS", "tailwindCss"],
+    title: "Weather-app",
+    description:"نمایش اطلاعات آب و هوای امروز و پیش بینی شش روزآینده. برای تمام شهرهای جهان.اطلاعات با API از سایت OPEN-METEO گرفته میشود",
+    category: ["JS", "Css"],
     type: "code",
-    image: "/pomodoro.png",
+    image: "/weatherapp",
     badge: "public",
-    link: "https://timer.frontcodev.ir",
+    link: "https://weather.frontcodev.ir/",
   },
   {
     id: 3,
@@ -40,7 +39,7 @@ export const projectList = [
       " سایت فروش فروش لوازم آشپزخانه و دکوری که با وردپرس  و المنتور ساخته شده. تلاش  من این بوده که تا جای ممکن تمام امکانات با ویژگی های خود المنتور پیاده سازی شود  و افزونه های اضافی نصب نشود. افزونه های نصب شده شامل افزونه ووکامرس که لازمه سایت فروشگاهی است ،افزونه  جت اسمارت فیلتر برای انجام فیلترها و افزونه افزودن به علاقمندی ها، است. همچنین طرح سایت از روی یک سایت آماده موجود در اینترنت اجرا شده است",
     category: ["wordpress", "Css"],
     type: "wordpress",
-    image: "/homekitchen1.png",
+    image: "/homekit.png",
     badge: "public",
     link: "https://homekit.frontcodev.ir",
   },
