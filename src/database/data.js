@@ -5,9 +5,9 @@ export const projectList = [
     description:"نمایش اطلاعات آب و هوای امروز و پیش بینی شش روزآینده. برای تمام شهرهای جهان.اطلاعات با API از سایت OPEN-METEO گرفته میشود",
     category: ["JS", "Css"],
     type: "code",
-    image: "/weatherapp",
+    image: "/weatherapp.png",
     badge: "public",
-    link: "https://weather.frontcodev.ir/",
+    link: "https://weather.frontcodev.ir",
   },
   {
     id: 3,
