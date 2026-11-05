@@ -44,7 +44,7 @@ export const projectList = [
     link: "https://homekit.frontcodev.ir",
   },
   {
-    id: 6,
+    id: 7,
     title: "leather-shop",
     description:"سایت وردپرس فروشگاه محصولات چرمی. سایت قبلی کارفرما با سایت ساز بود. به درخواست ایشان سایت جدید با سایت آماده راه اندازی شده و تنظیمات کلی و شخصی سازی های درخواستی انجام می شود",
     category: ["wordpress", "Css"],
